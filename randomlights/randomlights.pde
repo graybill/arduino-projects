@@ -50,7 +50,7 @@ void loop()
     for (i = 0; i < 4; i = i + 1) {
       digitalWrite(ledPins[i],  random(2));   // set the LED to randomly turn on and off
     } 
-    delay(loopDuration);      // wait for a second
+    delay(photocellReading);      // wait for a second
 //  }
 //  if (buttonCount %2 == 0) {
 //    int i;
